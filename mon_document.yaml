@@ -1,0 +1,17 @@
+description: |
+  Ce fichier a pour but de s'exercer et de comprendre la logique du YAML
+  il est fait pour un DM
+
+#Commentaire
+
+valeurs_par_defaut: &valeurs_par_defaut
+  statut : "Actif"
+  accès : "Utilisateur"
+
+Utilisateur1:
+  nom: "Pierre"
+  <<: *valeurs_par_defaut
+
+utilisateur2:
+  nom: "Stevon"
+  <<: *valeurs_par_defaut
