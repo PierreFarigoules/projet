@@ -1,0 +1,34 @@
+
+{
+    "nom" : "Pierre Farigoules",
+    "age": 25,
+    "Ville" : "Los Angeles",
+    "langauages" : ["Python", "JavaScript", "C++", "C"],
+
+    "utilisateur": {
+        "nom": "toto tata",
+        "email":"toto.tata@titi.tutu",
+        "contact": {
+            "tel" : "09514",
+            "adr" : "aoidpaodha"
+        }
+    },
+
+    "est_admin": false,
+    "abonnement": true,
+    "derniere_co": null,
+
+    "produits": [
+        {
+            "nom": "macbook air m4",
+            "prix": 1200,
+            "stock": 3
+        },
+        {
+            "nom": "magic mouse",
+            "prix": 99.90,
+            "stock": 10
+        }
+    ]
+    
+}
